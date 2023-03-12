@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "node ./tests/"
+    "test": "node ./tests/",
+    "build": "npm run test && tsc"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/WhyNotDogie/multiplayed/issues"
   },
-  "homepage": "https://github.com/WhyNotDogie/multiplayed#readme"
+  "homepage": "https://github.com/WhyNotDogie/multiplayed#readme",
+  "devDependencies": {
+    "simpltest": "^1.1.1"
+  }
 }
