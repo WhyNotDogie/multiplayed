@@ -1,0 +1,24 @@
+{
+  "name": "multiplayed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node ./tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhyNotDogie/multiplayed.git"
+  },
+  "keywords": [
+    "networking",
+    "network",
+    "multiplayer"
+  ],
+  "author": "WhyNotDogie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhyNotDogie/multiplayed/issues"
+  },
+  "homepage": "https://github.com/WhyNotDogie/multiplayed#readme"
+}
