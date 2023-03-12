@@ -9,7 +9,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "node ./tests/",
-    "build": "npm run test && tsc"
+    "build": "tsc && npm run test"
   },
   "repository": {
     "type": "git",
