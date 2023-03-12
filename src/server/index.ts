@@ -1,1 +1,5 @@
+class Server {
+    
+}
+
 export {}
